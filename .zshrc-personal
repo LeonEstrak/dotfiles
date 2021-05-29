@@ -15,5 +15,12 @@ alias paru='paru -Qqe > ~/.packages.txt && paru'
 
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+export PATH=$PATH:'~/go/bin'
+
+alias save-grub-theme='cp /usr/share/grub/themes ~/.config/GRUB -r'
+alias update-grub='save-grub-theme && sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
 alias clear='clear && paleofetch'
 clear
