@@ -10,6 +10,8 @@ alias lc='lt -m'                  # Lists sorted by date, most recent last, show
 alias lu='lt -u'                  # Lists sorted by date, most recent last, shows access time.
 alias sl='ls'                     # I often screw this up.
 
+alias cdwindows='cd /mnt/WindowsD'
+
 alias backupPackageList='paru -Qqe > ~/dotfiles/packages.txt'
 alias paru='paru -Qqe > ~/.packages.txt && paru'
 
@@ -17,7 +19,7 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-export PATH=$PATH:'~/go/bin'
+export PATH='/home/aniket/go/bin':'/home/aniket/.npm/bin':$PATH
 
 alias save-grub-theme='cp /usr/share/grub/themes ~/.config/GRUB -r'
 alias update-grub='save-grub-theme && sudo grub-mkconfig -o /boot/grub/grub.cfg'

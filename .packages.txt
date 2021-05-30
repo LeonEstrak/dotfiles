@@ -108,6 +108,7 @@ gvfs-smb
 gzip
 haveged
 hdparm
+htop
 hw-probe
 hwinfo
 ipw2100-fw
@@ -158,6 +159,7 @@ nano
 nbd
 ndisc6
 neofetch
+nerd-fonts-complete
 network-manager-applet
 networkmanager
 networkmanager-openconnect
@@ -168,6 +170,7 @@ nfs-utils
 nilfs-utils
 nitrogen
 noto-fonts
+npm
 nss-mdns
 ntfs-3g
 ntp
@@ -242,7 +245,6 @@ trizen
 ttf-dejavu
 ttf-fantasque-sans-mono
 ttf-fira-code
-ttf-nerd-fonts-symbols
 ttf-ubuntu-font-family
 upower
 urxvt-perls
