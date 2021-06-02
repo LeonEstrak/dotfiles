@@ -215,7 +215,7 @@ def init_widgets_list():
                 #         ),
                 widget.GroupBox(
                        font = "Ubuntu Bold",
-                       fontsize = 18,
+                       fontsize = 16,
                        margin_y = 3,
                        margin_x = 0,
                        padding_y = 10,
@@ -311,38 +311,6 @@ def init_widgets_list():
                     padding=15,
                     background=colors[0]
                 ),
-                #arcobattery.BatteryIcon(
-                #        padding=0,
-                #        scale=0.7,
-                #        y_poss=2,
-                #        theme_path=home + "/.config/qtile/icons/battery_icons_horiz",
-                #        update_interval = 5,
-                #        background = colors[0]
-                #        ),
-                #widget.Sep(
-                #    linewidth=0,
-                #    padding=15,
-                #    background=colors[0]
-                #)
-                # widget.Sep(
-                #         linewidth = 0,
-                #         padding = 10,
-                #         foreground = colors[2],
-                #         background = colors[1]
-                #         ),
-                # widget.Clock(
-                #         foreground = colors[5],
-                #         background = colors[1],
-                #         fontsize = 16,
-                #         font="Noto Sans Bold",
-                #         format="%H:%M"
-                #         ),
-                # widget.Sep(
-                #         linewidth = 0,
-                #         padding = 10,
-                #         foreground = colors[2],
-                #         background = colors[1]
-                #         ),
             ]
 
 screens = [
@@ -402,6 +370,7 @@ floating_layout = layout.Floating(float_rules=[
     {'wmclass': 'Galculator'},
     {'wmclass': 'arcolinux-logout'},
     {'wmclass': 'xfce4-terminal'},
+    {'wmclass': 'vlc'},
     {'wname': 'branchdialog'},
     {'wname': 'Open File'},
     {'wname': 'Open Folder'},

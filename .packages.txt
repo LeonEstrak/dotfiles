@@ -159,7 +159,7 @@ nano
 nbd
 ndisc6
 neofetch
-nerd-fonts-complete
+nerd-fonts-noto-sans-regular-complete
 network-manager-applet
 networkmanager
 networkmanager-openconnect
@@ -170,6 +170,7 @@ nfs-utils
 nilfs-utils
 nitrogen
 noto-fonts
+noto-fonts-emoji
 npm
 nss-mdns
 ntfs-3g
@@ -245,6 +246,7 @@ trizen
 ttf-dejavu
 ttf-fantasque-sans-mono
 ttf-fira-code
+ttf-nerd-fonts-symbols
 ttf-ubuntu-font-family
 upower
 urxvt-perls
@@ -262,6 +264,7 @@ wireless-regdb
 wireless_tools
 wpa_supplicant
 wvdial
+xclip
 xcursor-comix
 xcursor-flatbed
 xcursor-neutral

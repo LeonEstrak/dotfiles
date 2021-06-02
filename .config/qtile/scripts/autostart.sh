@@ -32,6 +32,7 @@ function run {
 run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 
 #starting utility applications at boot time
+nitrogen --set-zoom-fill --random ~/Pictures/wallpapers &
 #variety &
 libinput-gestures-setup start &
 run nm-applet &
@@ -46,11 +47,10 @@ picom --config $HOME/.config/qtile/scripts/picom.conf &
 #starting user applications at boot time
 run volumeicon &
 #run discord &
-nitrogen --set-zoom-fill --random ~/Pictures/wallpapers &
 caffeine &
 run optimus-manager-qt &
 cbatticon -l 30 -r 20 -c "light -s sysfs/backlight/intel_backlight -S 1" &
-gromit-mpx &
+#gromit-mpx &
 #run vivaldi-stable &
 #run firefox &
 #run thunar &
