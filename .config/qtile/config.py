@@ -336,6 +336,14 @@ def start_once():
     home = os.path.expanduser('~')
     subprocess.Popen(home + '/.config/qtile/scripts/autostart.sh')
 
+@hook.subscribe.client_new
+def floating_size_hints(window):
+    hints = window.window.get_wm_normal_hints()
+    if hints and hints['max_width']:
+        window.floating = True
+        width,height = window.cmd_get_size()
+        window.cmd_set_position_floating(960-width/2,540-height/2)
+
 # Drag floating layouts.
 mouse = [
     Drag([mod], "Button1", lazy.window.set_position_floating(),
