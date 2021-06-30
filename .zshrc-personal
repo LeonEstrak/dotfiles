@@ -44,4 +44,5 @@ alias vzp="vim ~/.zshrc-personal"
 alias vqtile="vim ~/.config/qtile/config.py"
 
 alias cls='clear && paleofetch'
+source ~/.profile
 cls
