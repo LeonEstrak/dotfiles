@@ -41,7 +41,7 @@ alias vsamba="sudo vim /etc/samba/smb.conf"
 alias vb="vim ~/.bashrc"
 alias vz="vim ~/.zshrc"
 alias vzp="vim ~/.zshrc-personal"
-alias vqtile="vim ~/.config/qtile"
+alias vqtile="vim ~/.config/qtile/config.py"
 
-alias clear='clear && paleofetch'
-clear
+alias cls='clear && paleofetch'
+cls
