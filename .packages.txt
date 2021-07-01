@@ -87,6 +87,7 @@ fsarchiver
 galculator
 gawk
 gcc
+gdb
 gettext
 gimp
 git
