@@ -31,6 +31,9 @@ function run {
 #start sxhkd to replace Qtile native key-bindings
 run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 
+#Bind Super key to open rofi
+xcape -e 'Super_L=Control_L|space'
+
 #starting utility applications at boot time
 nitrogen --set-zoom-fill --random ~/Pictures/wallpapers &
 #variety &

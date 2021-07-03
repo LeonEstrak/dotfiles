@@ -110,6 +110,7 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 gstreamer
+gvim
 gzip
 haveged
 hdparm
@@ -226,6 +227,7 @@ qtile
 qutebrowser
 reflector
 reiserfsprogs
+rofi
 rp-pppoe
 rsync
 rxvt-unicode
@@ -269,7 +271,6 @@ urxvt-perls
 urxvt-resize-font-git
 usb_modeswitch
 usbutils
-vim
 visual-studio-code-bin
 vlc
 volumeicon

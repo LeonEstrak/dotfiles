@@ -86,9 +86,10 @@ ctrl + alt + t
 ctrl + alt + m
 	mailspring
 #################################################################
-# ALT + ... KEYS
+# CTRL + ... KEYS
 #################################################################
-
+ctrl + space
+	bash /home/aniket/.config/rofi/launchers/colorful/launcher.sh
 
 #################################################################
 #VARIETY KEYS WITH PYWAL
