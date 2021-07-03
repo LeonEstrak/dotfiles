@@ -230,10 +230,10 @@ def init_widgets_list():
                 #         ),
                 widget.GroupBox(
                        font = "Ubuntu Bold",
-                       fontsize = 16,
-                       margin_y = 3,
+                       fontsize = 22,
+                       margin_y = 5,
                        margin_x = 0,
-                       padding_y = 10,
+                       padding_y = 5,
                        padding_x = 10,
                        borderwidth = 3,
                        active = colors[7],

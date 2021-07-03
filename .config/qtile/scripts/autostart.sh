@@ -32,7 +32,7 @@ function run {
 run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 
 #Bind Super key to open rofi
-xcape -e 'Super_L=Control_L|space'
+xcape -e 'Super_L=Alt_L|space'
 
 #starting utility applications at boot time
 nitrogen --set-zoom-fill --random ~/Pictures/wallpapers &

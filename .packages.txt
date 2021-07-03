@@ -3,7 +3,7 @@ adapta-gtk-theme
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
-alacritty
+alacritty-git
 alsa-firmware
 alsa-utils
 appstream
@@ -81,6 +81,7 @@ feh
 figlet
 file
 findutils
+fish
 flameshot
 flex
 fsarchiver
@@ -94,6 +95,7 @@ git
 gitkraken
 gksu
 gmrun
+gnome-terminal-transparency
 gnu-netcat
 go
 google-chrome
@@ -245,7 +247,6 @@ surfn-mint-y-icons-git
 syslinux
 tcpdump
 terminus-font
-termite
 testdisk
 texinfo
 thunar
@@ -279,9 +280,11 @@ wget
 which
 wireless-regdb
 wireless_tools
+wmctrl
 wpa_supplicant
 wvdial
 xarchiver
+xcape
 xclip
 xcursor-comix
 xcursor-flatbed
