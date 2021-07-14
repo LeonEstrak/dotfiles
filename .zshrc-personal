@@ -12,7 +12,6 @@ alias sl='ls'                     # I often screw this up.
 
 alias cdwindows='cd /mnt/WindowsD'
 
-alias backupPackageList='paru -Qqe > ~/dotfiles/packages.txt'
 alias paru='paru -Qqe > ~/.packages.txt && paru'
 
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -24,24 +23,24 @@ export PATH='/home/aniket/go/bin':'/home/aniket/.npm/bin':$PATH
 alias save-grub-theme='cp /usr/share/grub/themes ~/.config/GRUB -r'
 alias update-grub='save-grub-theme && sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
-# Make vim the default editor
-export EDITOR='vim'
-export VISUAL='vim'
+# Make nvim the default editor
+export EDITOR='nvim'
+export VISUAL='subl'
 
-alias vlightdm="sudo vim /etc/lightdm/lightdm.conf"
-alias vpacman="sudo vim /etc/pacman.conf"
-alias vgrub="sudo vim /etc/default/grub"
-alias vconfgrub="sudo vim /boot/grub/grub.cfg"
-alias vmkinitcpio="sudo vim /etc/mkinitcpio.conf"
-alias vmirrorlist="sudo vim /etc/pacman.d/mirrorlist"
-alias vsddm="sudo vim /etc/sddm.conf"
-alias vfstab="sudo vim /etc/fstab"
-alias vnsswitch="sudo vim /etc/nsswitch.conf"
-alias vsamba="sudo vim /etc/samba/smb.conf"
-alias vb="vim ~/.bashrc"
-alias vz="vim ~/.zshrc"
-alias vzp="vim ~/.zshrc-personal"
-alias vqtile="vim ~/.config/qtile/config.py"
+alias vlightdm="sudo nvim /etc/lightdm/lightdm.conf"
+alias vpacman="sudo nvim /etc/pacman.conf"
+alias vgrub="sudo nvim /etc/default/grub"
+alias vconfgrub="sudo nvim /boot/grub/grub.cfg"
+alias vmkinitcpio="sudo nvim /etc/mkinitcpio.conf"
+alias vmirrorlist="sudo nvim /etc/pacman.d/mirrorlist"
+alias vsddm="sudo nvim /etc/sddm.conf"
+alias vfstab="sudo nvim /etc/fstab"
+alias vnsswitch="sudo nvim /etc/nsswitch.conf"
+alias vsamba="sudo nvim /etc/samba/smb.conf"
+alias vb="nvim ~/.bashrc"
+alias vz="nvim ~/.zshrc"
+alias vzp="nvim ~/.zshrc-personal"
+alias vqtile="nvim ~/.config/qtile/config.py"
 
 alias cls='clear && paleofetch'
 source ~/.profile

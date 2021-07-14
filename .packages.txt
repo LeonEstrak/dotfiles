@@ -3,7 +3,7 @@ adapta-gtk-theme
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
-alacritty-git
+alacritty
 alsa-firmware
 alsa-utils
 appstream
@@ -32,6 +32,7 @@ arcolinux-zsh-git
 arcolinuxd-system-config-git
 aria2
 asciinema
+atom
 autoconf
 automake
 awesome-terminal-fonts
@@ -225,6 +226,7 @@ python-adblock
 python-psutil
 qbittorrent
 qt5ct
+qtcurve-qt5
 qtile
 qutebrowser
 reflector
@@ -240,7 +242,7 @@ sg3_utils
 smartmontools
 squashfs-tools
 stremio
-sublime-text-dev
+sublime-text-4
 sudo
 surfn-icons-git
 surfn-mint-y-icons-git
@@ -256,6 +258,7 @@ timeshift
 timeshift-autosnap
 tlp
 toilet
+transmission-gtk
 trash-cli
 tree
 trizen
@@ -340,6 +343,7 @@ xorg-xwininfo
 xorg-xwud
 yay-bin
 zip
+zoom
 zsh
 zsh-completions
 zsh-syntax-highlighting

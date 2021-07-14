@@ -34,6 +34,9 @@ run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 #Bind Super key to open rofi
 xcape -e 'Super_L=Alt_L|space'
 
+#Bind Single Press Left Control to Escape for VIM
+xcape -e 'Control_L=Escape'
+
 #starting utility applications at boot time
 nitrogen --set-zoom-fill --random ~/Pictures/wallpapers &
 #variety &
