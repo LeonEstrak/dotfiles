@@ -15,7 +15,7 @@ Extract all the files into your **/home/\<username>** directory and replace/merg
 The **.packages.txt** file contains all the packages that are installed in my system. There might exist some conflicts if you already have a preconfigured system but generally there shouldn't be any issues.
 
 Run the following command if you're using **paru** as an AUR helper or replace it with **yay** if you use that.
-> cat .packages.txt > paru -S --needed --noconfirm
+> cat .packages.txt |xargs paru -S --needed
 
 **Before running the above command, I recommend you go through the text file and remove or replace any packages you might not need. For example, I do GO development so it is present in the text file, you may not have any use for the GO compiler so you may remove it.**
 
