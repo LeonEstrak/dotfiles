@@ -17,6 +17,7 @@ alias paru='paru -Qqe > ~/.packages.txt && paru'
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH='/home/aniket/go/bin':'/home/aniket/.npm/bin':$PATH
 
