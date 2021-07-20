@@ -24,10 +24,15 @@ Run the following command if you're using **paru** as an AUR helper or replace i
 If you're not already using a Qtile-based system then create a **qtile.desktop** file in **/usr/share/xsessions/** folder. It should look somewhat like this,
 
 >[Desktop Entry]
+>
 >Name=Qtile
+>
 >Comment=Qtile Session
+>
 >Exec=qtile start
+>
 >Type=Application
+>
 >Keywords=wm;tiling
 
 After you're done with all the steps, restart the system, select Qtile in your login manager and login to the system. 
