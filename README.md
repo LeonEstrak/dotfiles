@@ -8,14 +8,16 @@ This is my dotfile configurations for Arch-based Linux distro's. It is a Qtile b
 # Installation
 
 You may want to download the zip file and extract it or use
-> git clone https://github.com/LeonEstrak/dotfiles.git
+    
+    git clone https://github.com/LeonEstrak/dotfiles.git
 
 Extract all the files into your **/home/\<username>** directory and replace/merge the .config directory.
 
 The **.packages.txt** file contains all the packages that are installed in my system. There might exist some conflicts if you already have a preconfigured system but generally there shouldn't be any issues.
 
 Run the following command if you're using **paru** as an AUR helper or replace it with **yay** if you use that.
-> cat .packages.txt |xargs paru -S --needed
+
+    cat .packages.txt |xargs paru -S --needed
 
 **Before running the above command, I recommend you go through the text file and remove or replace any packages you might not need. For example, I do GO development so it is present in the text file, you may not have any use for the GO compiler so you may remove it.**
 
@@ -23,17 +25,12 @@ Run the following command if you're using **paru** as an AUR helper or replace i
 
 If you're not already using a Qtile-based system then create a **qtile.desktop** file in **/usr/share/xsessions/** folder. It should look somewhat like this,
 
->[Desktop Entry]
->
->Name=Qtile
->
->Comment=Qtile Session
->
->Exec=qtile start
->
->Type=Application
->
->Keywords=wm;tiling
+    [Desktop Entry]
+    Name=Qtile
+    Comment=Qtile Session
+    Exec=qtile start
+    Type=Application
+    Keywords=wm;tiling
 
 After you're done with all the steps, restart the system, select Qtile in your login manager and login to the system. 
 

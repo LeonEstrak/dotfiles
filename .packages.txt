@@ -117,6 +117,7 @@ gvim
 gzip
 haveged
 hdparm
+hollywood
 htop
 hw-probe
 hwinfo
