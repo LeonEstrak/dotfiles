@@ -44,5 +44,9 @@ alias vzp="nvim ~/.zshrc-personal"
 alias vqtile="nvim ~/.config/qtile/config.py"
 
 alias cls='clear && paleofetch'
+alias wallpaper-change='~/.config/polybar/material/scripts/pywal.sh ~/Pictures/wallpapers'
+alias launch-polybar='bash $HOME/.config/polybar/launch.sh --material'
+
 source ~/.profile
+wal -R -e
 cls
