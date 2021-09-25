@@ -343,6 +343,7 @@ xorg-xcursorgen
 xorg-xdpyinfo
 xorg-xdriinfo
 xorg-xev
+xorg-xfd
 xorg-xgamma
 xorg-xhost
 xorg-xinit
