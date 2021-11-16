@@ -14,6 +14,7 @@ function run {
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #autorandr horizontal
 
+#Set Wallpaper using pywal
 bash ~/.config/polybar/material/scripts/pywal.sh ~/Pictures/wallpapers
 bash $HOME/.config/polybar/launch.sh --material
 
@@ -39,7 +40,7 @@ run pamac-tray &
 run xfce4-power-manager &
 numlockx on &
 blueberry-tray &
-picom -b --experimental-backends --config ~/.config/qtile/scripts/picom.conf &
+picom -b --experimental-backends --config ~/.config/picom/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 

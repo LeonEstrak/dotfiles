@@ -97,6 +97,9 @@ bspc rule -a Xfce4-settings-manager state=tiled
 #bspc rule -a discord desktop='^9' follow=on
 #bspc rule -a Spotify desktop='^10' follow=on
 
+#bspc rule -a google-chrome-stable desktop='^1' follow=on
+#bspc rule -a -o code desktop='^2' follow=on
+
 #Spotify fix  --move desktop 10
 #sleep 1
 #wmctrl -r Spotify -t 10
