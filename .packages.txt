@@ -131,7 +131,6 @@ gstreamer
 gucharmap
 gvim
 gzip
-hadoop
 haveged
 hdparm
 hollywood
@@ -143,7 +142,9 @@ ipw2200-fw
 irssi
 jdk11-openjdk
 jdk8-openjdk
+jenkins
 jfsutils
+jq
 jupyter-nbconvert
 kactivitymanagerd
 kde-cli-tools
@@ -193,6 +194,7 @@ make
 man-db
 man-pages
 materia-kde
+maven
 mc
 mcomix
 mdadm
@@ -214,6 +216,7 @@ neofetch
 neovide
 neovim
 nerd-fonts-noto-sans-regular-complete
+netbeans
 network-manager-applet
 networkmanager-dmenu-git
 networkmanager-openconnect
@@ -257,6 +260,7 @@ paru-bin
 patch
 pavucontrol
 pcmanfm
+pdsh
 persepolis
 pfetch
 picom-ibhagwan-git
@@ -287,6 +291,7 @@ preload
 pulseaudio-alsa
 pulseaudio-bluetooth
 python-adblock
+python-case
 python-django
 python-ipykernel
 python-matplotlib
@@ -303,11 +308,11 @@ qtcurve-qt5
 qtile
 qutebrowser
 r
+redshift
 reflector
 reiserfsprogs
 rofi
 rp-pppoe
-rstudio-desktop-bin
 rsync
 rxvt-unicode
 sardi-icons
@@ -345,6 +350,7 @@ ttf-fira-code
 ttf-jetbrains-mono
 ttf-nerd-fonts-symbols
 ttf-ubuntu-font-family
+unigine-heaven
 unrar
 unzip
 upower
@@ -422,6 +428,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+yarn
 yay-bin
 zip
 zoom

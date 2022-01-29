@@ -26,7 +26,7 @@ alias update-grub='save-grub-theme && sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 # Make nvim the default editor
 export EDITOR='nvim'
-export VISUAL='subl'
+export VISUAL='gvim'
 
 alias vlightdm="sudo nvim /etc/lightdm/lightdm.conf"
 alias vpacman="sudo nvim /etc/pacman.conf"
@@ -47,6 +47,11 @@ alias cls='clear && paleofetch'
 alias wallpaper-change='~/.config/polybar/material/scripts/pywal.sh ~/Pictures/wallpapers'
 alias launch-polybar='bash $HOME/.config/polybar/launch.sh --material'
 
+alias xcape_Escape_to_LCtrl="xcape -e 'Control_L=Escape'"
+
+alias docker_garbage_collection="docker rmi $(docker images -f "dangling=true" -q) -f"
+
 source ~/.profile
 wal -R -e
 cls
+
