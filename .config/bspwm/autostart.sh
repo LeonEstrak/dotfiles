@@ -14,6 +14,12 @@ function run {
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #autorandr horizontal
 
+#Checks if secondary monitor is available then sets the new monitor to be left of the original monitor
+if [[ "$(xrandr -q| grep -w "HDMI-1-1" | grep -w "disconnected" -o)" -eq "" ]]; then
+  xrandr --output HDMI-1-1 --mode 1920x1080 --left-of eDP-1-1
+  xrandr --output eDP-1-1 --mode 1920x1080 --scale 0.75 --pos 1920x270 
+fi
+
 #Set Wallpaper using pywal
 bash ~/.config/polybar/material/scripts/pywal.sh ~/Pictures/wallpapers
 bash $HOME/.config/polybar/launch.sh --material
@@ -29,7 +35,10 @@ xcape -e 'Control_L=Escape'
 
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 xsetroot -cursor_name left_ptr &
-run sxhkd &
+run sxhkd &0
+
+# Set yellow tint to the screen. Basically, Night Mode.
+redshift -P -O 3600
 
 #starting utility applications at boot time
 #nitrogen --set-zoom-fill --random ~/Pictures/wallpapers &

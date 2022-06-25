@@ -125,9 +125,12 @@ shift + Print
 #################################################################
 
 #xfce4-terminal dropdown
-F12
-    xfce4-terminal --drop-down
+#F12
+#    xfce4-terminal --drop-down
 
+#Draw on Screen
+F9
+  gromit-mpx -a || gromit-mpx -t
 
 #################################################################
 #     MULTIMEDIA KEYS
